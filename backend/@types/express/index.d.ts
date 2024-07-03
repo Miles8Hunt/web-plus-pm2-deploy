@@ -7,3 +7,7 @@ declare global{
         }
     }
 }
+
+export function Router() {
+  throw new Error('Function not implemented.');
+}
