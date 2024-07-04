@@ -6,6 +6,10 @@ const {
 } = process.env;
 
 module.exports = {
+  apps: [{
+    name: 'front',
+  }],
+
   deploy: {
     production: {
       user: DEPLOY_USER,
